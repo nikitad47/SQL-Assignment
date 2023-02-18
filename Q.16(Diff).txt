@@ -1,0 +1,19 @@
+Q.16) Mention the differences between the delete, drop and truncate commands
+
+DELETE:
+Delete is a DML(Data Manipulation Language) command. 
+	It is used to delete one or more tuples of a table. 
+	With the help of the Delete command, we can either delete all the rows at once 
+	or can delete rows one by one. i.e., 
+	we can use it as per the requirement or the condition using the Where clause. 
+	It is slower than the Truncate command.
+
+DROP:
+	Drop is a (DDL)Data Definition Language command. 
+	It is used to drop the whole table & its structure.
+
+TRUNCATE:
+	Truncate is a (DDL)Data Definition Language command. 
+	It is used to delete all the rows of a table at once. 
+	With the help of the Truncate command, we can’t delete the single row as here WHERE clause is not used. 
+	It is faster than delete command.
